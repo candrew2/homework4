@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #fefefe;
-  color: #333;
+  background-color: white;
+  color: black;
 }
 
 .grid-container {
@@ -18,10 +18,10 @@ body {
 
 .header {
   grid-area: header;
-  background: linear-gradient(135deg, #3f87a6, #ebf8e1, #f69d3c);
+  background-color: skyblue;
   padding: 1.5em;
   text-align: center;
-  color: #222;
+  color: black;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -36,14 +36,14 @@ body {
 
 .navbar {
   grid-area: navbar;
-  background: #3f87a6;
+  background-color: navy;
   padding: 1em;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   position: relative;
-  color: #fff;
+  color: white;
 }
 .navbar ul {
   list-style: none;
@@ -55,12 +55,12 @@ body {
 }
 .navbar a {
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-weight: bold;
   transition: color 0.3s, transform 0.3s;
 }
 .navbar a:hover {
-  color: #fdd835;
+  color: gold;
   transform: translateX(5px);
 }
 
@@ -68,7 +68,7 @@ body {
   position: absolute;
   bottom: 10px;
   left: 10px;
-  background-color: #f69d3c;
+  background-color: orange;
   color: white;
   padding: 0.5em 1em;
   border-radius: 8px;
@@ -77,9 +77,9 @@ body {
   transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 }
 .resume:hover {
-  background-color: #fdd835;
-  color: #333;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  background-color: gold;
+  color: black;
+  box-shadow: 0 4px 12px gray;
   transform: scale(1.1);
 }
 
@@ -92,9 +92,9 @@ body {
 /* Summary and Experience Deco */
 section {
   margin-bottom: 2em;
-  background: #ebf8e1;
+  background-color: lightyellow;
   padding: 1em;
-  border-left: 6px solid #3f87a6;
+  border-left: 6px solid navy;
   border-radius: 8px;
 }
 
@@ -105,11 +105,11 @@ table {
   margin-top: 1em;
 }
 table, th, td {
-  border: 1px solid #3f87a6;
+  border: 1px solid navy;
   padding: 8px;
 }
 th {
-  background: #3f87a6;
+  background-color: navy;
   color: white;
 }
 
@@ -123,7 +123,7 @@ th {
 }
 .skills-flex div {
   flex: 1 1 200px;
-  background: #f69d3c;
+  background-color: orange;
   color: white;
   padding: 1em;
   border-radius: 8px;
@@ -132,9 +132,9 @@ th {
 }
 .skills-flex div:hover {
   transform: scale(1.1) rotate(2deg);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
-  background-color: #fdd835;
-  color: #333;
+  box-shadow: 0 6px 12px gray;
+  background-color: gold;
+  color: black;
 }
 
 /* Projects */
@@ -144,7 +144,7 @@ th {
   gap: 1em;
 }
 .project-item {
-  background: #3f87a6;
+  background-color: steelblue;
   color: white;
   padding: 1em;
   border-radius: 8px;
@@ -165,7 +165,7 @@ th {
 /* Footer */
 .footer {
   grid-area: footer;
-  background-color: #3f87a6;
+  background-color: navy;
   color: white;
   padding: 1em;
   text-align: center;
